@@ -5,7 +5,7 @@ export const Navbar = () => {
   const NavLinkStyle = ({isActive}) => {
     return {
       fontWeight: isActive ? 'bold' : 'regular',
-      color: isActive ? 'rgb(135, 255, 255)' : 'teal'
+      color: isActive ? 'rgb(135, 255, 255)' : 'white'
 
     }
   }
