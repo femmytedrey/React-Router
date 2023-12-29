@@ -37,17 +37,27 @@
   }
 }
 
-nav{
+.primary-nav{
   padding: 16px 32px;
   background: teal;
   font-size: 20px;
 }
 
-nav a{
+.primary-nav a{
   margin-right: 15px;
   text-decoration: none;
-  color: white
+  color: white;
 }
+.nested-nav{
+  background: #61dafb;
+  padding: 16px 32px;
+}
+.nested-nav a{
+  margin-right: 15px;
+  text-decoration: none;
+  color: #3a3a3a
+}
+
 
 /* nav a.active{
   color: rgb(135, 255, 255);
