@@ -1,7 +1,9 @@
 import React from 'react'
+import { useParams } from 'react-router-dom'
 
 export const UserDetails = () => {
+    const params = useParams()
   return (
-    <div>Details about users</div>
+    <div>Details about</div>
   )
 }

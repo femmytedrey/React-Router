@@ -11,6 +11,9 @@ import { New } from './Components/New';
 import { Users } from './Components/Users';
 import { UserDetails } from './Components/UserDetails';
 import { Admin } from './Components/Admin';
+import { User1 } from './Components/User1';
+import { User2 } from './Components/User2';
+import { User3 } from './Components/User3';
 
 function App() {
   return (
@@ -28,6 +31,13 @@ function App() {
       <Route path='users' element = { <Users />}>
         <Route path=':userId' element = { <UserDetails /> } />
         <Route path='admin' element = { <Admin /> } />
+
+
+        {/* <Route path='1' element = { <User1 />} />
+        <Route path='2' element = { <User2 />} />
+        <Route path='3' element = { <User3 />} /> */}
+
+
       </Route>
       <Route path='*' element = { <NoMatch /> } />
     </Routes>
