@@ -1,8 +1,10 @@
 import React from 'react'
+import { useAuth } from './auth'
 
 const About = () => {
+  const auth = useAuth()
   return (
-    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a tristique leo. Nulla tempus orci eget semper pellentesque. Fusce quis ante vel erat fermentum iaculis ac vitae mi. Sed ut sodales neque. Nullam laoreet elit ante, quis laoreet justo tempus in. Aliquam erat volutpat. In hac habitasse platea dictumst. Nunc a bibendum felis, vitae dignissim dolor. Aenean eget nisl enim. Donec dignissim accumsan aliquet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque mattis lacus et libero porta condimentum. Phasellus ligula quam, aliquam nec tellus at, varius tincidunt mauris.
+    <div> Hello {auth.user} Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a tristique leo. Nulla tempus orci eget semper pellentesque. Fusce quis ante vel erat fermentum iaculis ac vitae mi. Sed ut sodales neque. Nullam laoreet elit ante, quis laoreet justo tempus in. Aliquam erat volutpat. In hac habitasse platea dictumst. Nunc a bibendum felis, vitae dignissim dolor. Aenean eget nisl enim. Donec dignissim accumsan aliquet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque mattis lacus et libero porta condimentum. Phasellus ligula quam, aliquam nec tellus at, varius tincidunt mauris.
 
     Nunc vitae porta mi. Nam sit amet ipsum a nibh luctus ornare non in ligula. Cras et ornare orci. Nunc tempor leo nec vulputate luctus. Cras ultrices quam et orci tempor accumsan. Suspendisse venenatis quam id elementum sagittis. Nulla cursus laoreet euismod. Suspendisse vitae eros condimentum, consequat orci sit amet, bibendum libero. Ut tincidunt leo nisl, sit amet rutrum ligula cursus sed. Mauris rhoncus purus et leo efficitur, eu interdum sapien mollis. Curabitur vitae orci ac dolor lacinia laoreet ac eget turpis. Fusce vitae dictum nulla. Curabitur in augue elit.
     

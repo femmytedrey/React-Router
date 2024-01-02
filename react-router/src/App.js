@@ -16,6 +16,7 @@ import { User2 } from './Components/User2';
 import { User3 } from './Components/User3';
 import { Profile } from './Components/Profile';
 import { AuthProvider } from './Components/auth';
+import { Login } from './Components/Login';
 const LazyAbout = React.lazy(() => import('./Components/About'))
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
 
       </Route>
       <Route path='profile' element = {<Profile />} />
+      <Route path='login' element = {<Login />} />
       <Route path='*' element = { <NoMatch /> } />
     </Routes>
     </AuthProvider>
